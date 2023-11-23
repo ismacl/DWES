@@ -19,6 +19,7 @@ from django.urls import path
 from webserviceapp import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('test', views.pagina_de_prueba)
+	path('admin/', admin.site.urls),
+	path('test', views.pagina_de_prueba),
+	path('juegos', views.devolver_juegos)
 ]
